@@ -33,6 +33,7 @@ namespace :highcharts do
       sh "curl -# http://code.highcharts.com/modules/heatmap.js -L --compressed -o vendor/assets/javascripts/highcharts/modules/heatmap.js"
       sh "curl -# http://code.highcharts.com/modules/no-data-to-display.js -L --compressed -o vendor/assets/javascripts/highcharts/modules/no-data-to-display.js"
       sh "curl -# http://code.highcharts.com/modules/offline-exporting.js -L --compressed -o vendor/assets/javascripts/highcharts/modules/offline-exporting.js"
+      sh "curl -# http://code.highcharts.com/modules/pattern-fill.js -L --compressed -o vendor/assets/javascripts/highcharts/modules/pattern-fill.js"
       sh "curl -# http://code.highcharts.com/modules/solid-gauge.js -L --compressed -o vendor/assets/javascripts/highcharts/modules/solid-gauge.js"
       sh "curl -# http://code.highcharts.com/modules/treemap.js -L --compressed -o vendor/assets/javascripts/highcharts/modules/treemap.js"
 
